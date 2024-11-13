@@ -1,0 +1,109 @@
+:root{
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+    margin-top:1em;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.conjunto_botao{
+    display: flex;
+    margin-top:4px;
+    gap: 10px;
+}
+
+.menu_botao{
+    display: flex;
+    justify-content: flex-start;
+    gap: 8em;
+}
+
+.botao_entrar{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 13px;
+    border-radius: 8px;
+    border:none;
+    padding: 10px 18px 10px 18px;
+    background-color: #ffffff;
+}
+
+.botao_cadastrar{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color:#ffffff;
+    font-size: 14px;
+    border-radius:8px;
+    border: 1px;
+    border-color: var(--main-color);
+    padding: 10px 18px 10px 18px;
+    background-color: var(--main-color);
+}
+
+.logo_imagem{
+    width: 140px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    flex-wrap: wrap;
+}
+
+.sobre_nos{
+    color: var(--main-color);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: auto;
+    height: 24px;
+}
+
+.sobre_titulo{
+    color: #101828;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    width: auto;
+    height: 60px;
+    text-align: center;
+}
+
+.sobre_paragrafo{
+    color: var(--text-color);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 800px;
+    height: 60px;
+    text-align: center;
+}
