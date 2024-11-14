@@ -16,6 +16,7 @@ header{
     padding-left: 32px;
     padding-top: 20px;
     padding-bottom: 20px;
+    transform: scale(1.1);
 }
 
 .menu{
@@ -39,6 +40,7 @@ header{
     display: flex;
     justify-content: flex-start;
     gap: 8em;
+    
 }
 
 .botao_entrar{
@@ -74,7 +76,7 @@ header{
     justify-content: center;
     align-content: center;
     padding-top: 96px;
-    padding-bottom: 96px;
+    padding-bottom: 70px;
     flex-wrap: wrap;
 }
 
@@ -106,4 +108,87 @@ header{
     width: 800px;
     height: 60px;
     text-align: center;
+}
+
+.metricas h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--main-color);
+    margin-bottom: 0;
+}
+
+.metricas{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    
+}
+
+.metricas div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 300px;
+    height: 100px;
+}
+
+.projetos_concluidos_subtitulo{
+    color: #101828;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.projetos_concluidos_paragrafos{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+    max-width: 280px;
+}
+
+.colaboradores_subtitulo{
+    color: #101828;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.colaboradores_paragrafos{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top:0;
+    max-width: 270px;
+}
+
+.downloads_subtitulo{
+    color: #101828;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.downloads_paragrafo{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top:0;
+    max-width: 280px;
+}
+
+.review_subtitulo{
+    color: #101828;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.review_paragrafo{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+    max-width: 280px;
 }
