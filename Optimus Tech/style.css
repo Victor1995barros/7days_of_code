@@ -126,6 +126,7 @@ header{
     align-items: center;
     justify-content: center;
     gap: 42px;
+    padding-bottom: 12%;
     
 }
 
@@ -191,4 +192,46 @@ header{
     font-size: 16px;
     margin-top: 0;
     max-width: 280px;
+}
+
+.talentos{
+    padding-top: 8%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag{
+    font-family: "Inter", sans-serif;
+    color:var(--main-color);
+    background-color:whitesmoke;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 13px;
+    border-radius:15px;
+    margin-left:36%;
+    margin-right:40%;
+    align-self: center;
+}
+
+.talentos-titulo{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #101828;
+    font-size: 36px;
+    letter-spacing: -2%;
+}
+
+.talentos-paragrafo{
+    font-family: "Inter", sans-serif;
+    color:#667085;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.reuniao{
+    padding-top:4%;
+    width: 100%;
+    padding-bottom:10%;
 }
