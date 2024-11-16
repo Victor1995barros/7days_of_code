@@ -235,3 +235,50 @@ header{
     width: 100%;
     padding-bottom:10%;
 }
+
+.vagas-titulo{
+    font-family: "Inter", sans-serif;
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.vagas{
+    margin-top: -110px;
+    margin-bottom: 5%;
+}
+
+.vagas-cards-titulo{
+    font-family: "Inter", sans-serif;
+    color: #101828;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.vagas-cards-descricao{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 10%;
+    margin-top:10%;
+
+}
+
+.vagas-card{
+    border: 1px solid #EAECF0;
+    padding-top:32px;
+    padding-bottom:10px;
+    padding-left:25px;
+    padding-right:325px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.vagas-cards-texto{
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+}
