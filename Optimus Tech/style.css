@@ -282,3 +282,70 @@ header{
     font-weight: 500;
     font-size: 14px;
 }
+
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #C3191908;
+    margin-bottom: 5%;
+    padding: 5% 10%;
+    width: 60%;
+    margin-left: 10%;
+}
+
+.depoimentos-texto{
+    font-family: "Inter", sans-serif;
+}
+
+.depoimentos-paragrafo{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 14px;
+    align-self: center;
+    margin-left: 32%;
+}
+
+.depoimentos-titulo{
+    color:#101828;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -2%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+.depoimentos-imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil{
+    margin-left: 29%;
+    margin-top:-20%;
+}
+
+.depoimentos-imagem-nome{
+    font-family: "Inter", sans-serif;
+    color: #101828;
+    font-weight: 500;
+    font-size: 16px;
+    align-self: center;
+    justify-self: center;
+}
+
+.depoimentos-imagem-cargo{
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    align-self: center;
+    justify-self: center;
+    margin-top: -7%;
+    margin-bottom: -5%;
+}
