@@ -349,3 +349,83 @@ header{
     margin-top: -7%;
     margin-bottom: -5%;
 }
+
+.rodape{
+    font-family:"Inter", sans-serif;
+    background-color: #F9FAFB;
+    padding-top:5%;
+    padding-bottom:3%;
+}
+
+.rodape-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.rodape-titulo{
+    color:#101828;
+    font-size:36px;
+    font-weight: 600;
+    margin-bottom: 0.5%;
+}
+
+.rodape-paragrafo{
+    color:var(--text-color);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin-top: 2%;
+    margin-left: -4%;
+    gap: 5%;
+    justify-self: center;
+}
+
+.copyright{
+    color:#98A2B3;
+    font-weight: 400;
+    font-size: 16px;
+    align-self: center;
+    justify-self: center;
+    margin-top: 3%;
+}
+
+.email{
+    background-color: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 60%;
+    margin-left: -30%;
+}
+
+.email::placeholder{
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.botao{
+    background-color: #8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #FFFFFF;
+}
+
+
